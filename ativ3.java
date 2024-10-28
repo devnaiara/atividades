@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class ativ3 {
 public static void main(String[] args) {
 	
-	float salariobruto, adicionalnoturno, horasextras, descontoscolaborador, salarioliquido;
+	float salarioBruto, adicionalNoturno, horasExtras, descontosColaborador, salarioLiquido;
 	
 	Scanner ler = new Scanner(System.in);
 	
 	System.out.printf("Informe o salário bruto: ");
-	salariobruto = ler.nextFloat();
+	salarioBruto = ler.nextFloat();
 	
 	System.out.printf("Informe o adicional noturno: ");
-	adicionalnoturno = ler.nextFloat();
+	adicionalNoturno = ler.nextFloat();
 	
 	System.out.printf("Informe as horas extras: ");
-	horasextras = ler.nextFloat();
+	horasExtras = ler.nextFloat();
 	
 	System.out.printf("Informe os descontros do colaborador: ");
-	descontoscolaborador = ler.nextFloat();
+	descontosColaborador = ler.nextFloat();
 	
-	salarioliquido = salariobruto + adicionalnoturno + (horasextras * 5) - descontoscolaborador;
+	salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontosColaborador;
 	
-	System.out.printf("O seu salário líquido é: "+salarioliquido);
+	System.out.printf("O seu salário líquido é: "+salarioLiquido);
 
 	ler.close();
 	}
