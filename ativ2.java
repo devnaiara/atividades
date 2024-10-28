@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	
 	Scanner ler = new Scanner(System.in);
 	
-	float nota1, nota2, nota3, nota4, mediafinal;
+	float nota1, nota2, nota3, nota4, mediaFinal;
 	
 	System.out.printf("Informe a primeira nota: ");
 	nota1 = ler.nextFloat();
@@ -21,9 +21,9 @@ public static void main(String[] args) {
 	System.out.printf("Informe a quarta nota: ");
 	nota4 = ler.nextFloat();
 	
-	mediafinal = (nota1 + nota2 + nota3 + nota4) / 4;
+	mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
 	
-	System.out.printf("Sua médica final é: "+mediafinal);
+	System.out.printf("Sua médica final é: "+mediaFinal);
 	
 	ler.close();
 	

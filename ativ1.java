@@ -7,7 +7,7 @@ public class ativ1 {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		float salario, abono, novosalario;
+		float salario, abono, novoSalario;
 		
 		System.out.printf("Informe o salário: ");
 		salario = ler.nextFloat();
@@ -15,9 +15,9 @@ public class ativ1 {
 		System.out.printf("Informe o abono: ");
 		abono = ler.nextFloat();
 		
-		novosalario = salario + abono;
+		novoSalario = salario + abono;
 		
-		System.out.printf("Seu novo salário é: "+novosalario);
+		System.out.printf("Seu novo salário é: "+novoSalario);
 			
 	   ler.close();
 		
